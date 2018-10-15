@@ -1,0 +1,34 @@
+$text-tengah     : center;
+$marg0           : 0px;
+$padd0           : 0px;
+$background-wht  : white;
+$border0         : 0px;
+$color-blck      : black;
+$background-trans: transparent;
+$colors-wht      : white;
+$padd-marg100    : 100px;
+$background-grey : #1a1a1a;
+$padd-marg10     : 10px;
+$padd-marg20     : 20px;
+$padd-marg50     : 50px;
+$break-small     : 480px;
+
+
+@mixin ex {
+  @media (min-width: 280px) and (max-width: 310px) {
+    @content;
+  }
+}
+
+
+@mixin sm {
+  @media (min-width: 320px) and (max-width: 450px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: 460px) and (max-width: 756px) {
+    @content;
+  }
+}

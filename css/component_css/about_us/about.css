@@ -1,0 +1,301 @@
+header .navbar {
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid #f8f7f7;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+header .navbar .navbar-brand {
+  font-size: 30px;
+  color: black;
+}
+
+header .navbar .navbar-brand:hover {
+  color: black;
+}
+
+header .navbar-inverse .navbar-nav {
+  margin-top: 10px;
+}
+
+header .navbar-inverse .navbar-nav li a {
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+header .navbar-inverse .navbar-nav li a:focus {
+  color: black;
+}
+
+header .navbar-inverse .navbar-nav li a:hover {
+  color: black;
+}
+
+section #section1 {
+  background: grey;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+section #section1 .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+section #section1 .row .col-md-6 .panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+section #section1 .row .col-md-6 .panel .panel-body {
+  border: 0px;
+  padding-bottom: 0;
+  background: transparent;
+}
+
+section #section1 .row .col-md-6 .panel .panel-body h1 {
+  font-size: 40px;
+  color: white;
+}
+
+section #section1 .row .col-md-6 .panel .panel-body p {
+  font-size: 15px;
+  color: white;
+}
+
+section #section1 .row .col-md-6 .panel-default {
+  border: 0px;
+}
+
+section #section1 .row .col-md-4 .panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+section #section1 .row .col-md-4 .panel .panel-body {
+  border: 0px;
+  padding-bottom: 0;
+  background: transparent;
+}
+
+section #section1 .row .col-md-4 .panel .panel-body h1 {
+  font-size: 40px;
+  color: white;
+}
+
+section #section1 .row .col-md-4 .panel .panel-body p {
+  font-size: 15px;
+  color: white;
+}
+
+section #section1 .row .col-md-4 .panel-default {
+  border: 0px;
+}
+
+section #section1 #button-method {
+  padding-bottom: 50px;
+}
+
+section #section1 #button-method .btn {
+  background: grey;
+  color: white;
+  padding-left: 30px;
+  border: 0px;
+  font-size: 18px;
+}
+
+section #section-text {
+  background-color: white;
+}
+
+section #section-text #content-text {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+section #section-text #content-text p {
+  color: #595959;
+}
+
+section #section-text #content-text .panel {
+  background: white;
+}
+
+section #section-text #content-text .panel-default {
+  border: 0px;
+}
+
+section #section-text #content-text .panel-default .panel-heading {
+  color: black;
+  background: white;
+  border: 0px;
+}
+
+section #section-text #content-text .panel-default .panel-heading h1 {
+  font-size: 60px;
+}
+
+section #section-text #content-text .col-md-offset-2 p {
+  color: black;
+}
+
+section #section-text #content-text #button-method {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+section #section-text #content-text #button-method .btn {
+  color: black;
+  border: 0px;
+  font-size: 18px;
+}
+
+section #section-text1 {
+  background: grey;
+}
+
+section #section-text1 .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+section #section-text1 .row .col-md-offset-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+section #section-text1 .row .col-md-offset-2 h1 {
+  color: white;
+}
+
+section #section-icon {
+  text-align: center;
+}
+
+section #section-icon #content-icon {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+section #section-icon #content-icon #icon1 {
+  -webkit-box-shadow: 0 1px 3px #bfbfbf;
+          box-shadow: 0 1px 3px #bfbfbf;
+  border-radius: 20px;
+}
+
+section #section-icon #content-icon #icon1 .panel {
+  -webkit-box-shadow: none;
+  margin-bottom: 0px;
+  box-shadow: none;
+}
+
+section #section-icon #content-icon #icon1 .panel-default {
+  border: 0px;
+}
+
+section #section-icon #content-icon #icon1 .panel-body {
+  margin: 40px;
+  padding: 50px;
+  border: 0px;
+  background: aqua;
+}
+
+section #section-icon #content-icon #icon1 .panel-footer {
+  border: 0px;
+  background: white;
+}
+
+section #section-icon #content-icon #icon1 .panel-footer h1 {
+  font-size: 20px;
+}
+
+section #section-icon #content-icon #icon1 #button-method {
+  padding-bottom: 30px;
+}
+
+section #section-icon #content-icon #icon1 #button-method .btn-default :hover {
+  background: white;
+}
+
+section #section-icon #content-icon #icon1 #button-method .btn {
+  color: black;
+  border: 0px;
+  font-size: 16px;
+}
+
+section .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+section .row .panel {
+  background: white;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+section .row .panel-default {
+  border: 0px;
+}
+
+section .row .panel-default .panel-heading {
+  color: black;
+  background: white;
+  border: 0px;
+}
+
+section .row .panel-default .panel-heading h1 {
+  font-size: 60px;
+}
+
+section .row .col-md-offset-3 {
+  padding-bottom: 50px;
+}
+
+section .row .col-md-offset-3 p {
+  color: black;
+  font-size: 17px;
+}
+
+footer #footer1 {
+  background: black;
+}
+
+footer #footer1 .navbar-default {
+  padding-right: 200px;
+  margin-top: 50px;
+  background: black;
+  border: 0px;
+}
+
+footer #footer1 .navbar-default #brand .col-md-9 .panel-heading h1 {
+  color: white;
+  font-size: 25px;
+}
+
+footer #footer1 .navbar-default #brand .navbar-right {
+  margin-right: 0px;
+  padding-top: 10px;
+}
+
+footer #footer1 .navbar-default #brand .navbar-right ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+footer #footer1 .navbar-default #brand .navbar-right ul li a {
+  color: white;
+}
+/*# sourceMappingURL=about.css.map */

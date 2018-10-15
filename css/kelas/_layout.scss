@@ -1,0 +1,387 @@
+body{
+	background: $background-wht;
+	margin    : $marg0
+
+}
+header{
+	background  : $color-blck;
+	p{
+		margin    : $marg0;
+		text-align: $text-tengah;
+		color     : $colors-wht;
+		@include sm {
+			font-size: 12px
+		}
+
+	}
+}
+.navbar{
+	border-radius : 0px;
+	margin-top    : $padd-marg10;
+	background    : $background-wht;
+	padding-top   : $padd-marg10;
+	padding-bottom: $padd-marg10;
+	border-bottom : 2px solid rgb(248, 247, 247);
+	border-top    : $border0;
+	border-left   : $border0;
+	border-right  : $border0;
+	
+	.navbar-brand{
+		font-size: 30px;
+		color    : $color-blck ;
+		&:hover{
+			color  : $color-blck 
+		}
+	}
+}
+.navbar-inverse{
+	.navbar-nav{
+		margin-top: $padd-marg10;
+		li{
+			a{
+				color         : $color-blck;
+				padding-top   : 4px;
+				padding-bottom: $padd-marg10;
+				&:focus{
+					color:$color-blck
+				}
+				&:hover{
+					color:$color-blck 
+				}
+			}
+		}
+	}
+	.navbar-toggle{
+			background: $color-blck 
+	}
+}
+.collapse{
+	.btn{
+			border       : 1px solid  aqua;
+			border-radius: $padd-marg100;
+			padding-top  : $padd-marg20;
+			height       : 30px;
+			width        : 90px;
+			margin-left  : 15px;
+	}
+}
+section{
+	#title-brand{
+		padding-top   : $padd-marg20;
+		padding-bottom: $padd-marg20;
+		@include sm{
+			padding-top: 0px;
+			h1{
+				font-size: 18px;
+			}
+		}
+	}
+	#image{
+		#image-background{
+			background-image : url("../image/hero-still-image-desktop.jpg");
+			background-repeat: no-repeat;
+			background-size  : 100% 100%;
+		}
+		#text-image{
+			padding-top   : 80px;
+			padding-bottom: $padd-marg20;
+			#text-about{
+			a{
+				color    : #b3b3b3;
+				font-size: 17px;
+			}
+		}
+		}
+		.panel-default{
+			border: $border0
+		}
+		.panel{
+			background: $background-trans
+		}
+		.col-md-3{
+		  .panel-body{
+		  	border    : $border0;
+		  	padding   : $padd0;
+		  	background: $background-trans;
+		  	h1{
+		  		font-size: 25px;
+					color    : $colors-wht;
+					@media screen and (max-width: $break-small) {
+						font-size: 18px
+				}
+		  	}
+		  }
+		}
+		.col-md-4{
+			.panel-body{
+				border    : $border0;
+		  	padding   : $padd0;
+		  	background: $background-trans;
+			}
+			p{
+				font-size: 15px;
+				color    : $colors-wht
+			}
+		}
+		.btn{
+			background: #00cccc;
+			border    : 1px solid #00cccc;
+			color     : $colors-wht
+		}
+	}
+	#section-main{
+		#case{
+			padding-top: $padd-marg100;
+		}
+		.row{
+			margin-top: $padd-marg20;
+		}
+		.col-md-3{
+			.panel{
+				border: $border0
+			}
+		}
+    #panel-image{
+	    .panel-body{
+		    background-image       : url("../image/skype-splash-android-gs8.jpg");
+		    background-repeat      : no-repeat;
+		    background-size        : 100% 100%;
+		    border-top-left-radius : $padd-marg20;
+	      border-top-right-radius: $padd-marg20;
+		    height                 : 150px;
+			}
+			.panel-footer{
+				border-bottom-left-radius : $padd-marg20;
+	      border-bottom-right-radius: $padd-marg20;
+	      background-color          : $colors-wht;
+				box-shadow                : 0 1px 3px #bfbfbf; 
+				text-align                : $text-tengah 				
+			}
+		}
+		#panel-noimage{
+			.panel-body{
+				background-color       : #00cccc;
+	      height                 : 150px;
+	      border-top-left-radius : $padd-marg20;
+	      border-top-right-radius: $padd-marg20;
+			}
+			.panel-footer{
+				border-bottom-left-radius : $padd-marg20;
+	      border-bottom-right-radius: $padd-marg20;
+	      background-color          : $colors-wht;
+				box-shadow                : 0 1px 3px #bfbfbf; 
+				text-align                : $text-tengah 
+			}
+		}
+		.button{
+			.btn{
+				border          :1px solid #00cccc; 
+	      background-color: #00cccc; 
+			}
+		}
+		@media screen and (max-width: $break-small) {
+			#case{
+				padding-top: 20px;
+				p{
+					font-size: 12px;
+				}
+			}
+			#main-title{
+				h1{
+					font-size: 20px;
+				}
+			}
+	}
+	.col-md-6{
+		.panel{
+			border: $border0 ;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			.panel-body{
+				padding: $padd0
+			}
+		}
+	}
+	}
+	#section-text{
+		margin-top      : 70px;
+		background-color: $background-grey;
+		#content-text{
+			text-align    : $text-tengah;
+			padding-top   : $padd-marg100;
+			padding-bottom: 30px;
+			p{
+				color:#595959
+			}
+			.panel{
+				background: $background-grey
+			}
+			.panel-default{
+				border: $border0;
+				.panel-heading{
+					color     : $colors-wht;
+					background: $background-grey;
+					border    : $border0;
+					h1{
+						font-size: 25px;
+						@media screen and (max-width: $break-small) {
+							font-size: 20px
+					}
+					}
+				}
+			}
+			.col-md-offset-3{
+				text-align   : $text-tengah;
+				padding-bottom: 50px;
+				p{
+					color: $colors-wht
+				}
+			}
+		}
+	}
+	#section-icon{
+		#content-icon{
+			text-align : $text-tengah;
+			padding-top: $padd-marg50;
+			h1{
+				font-size: 25px;
+			}
+			.row{
+				padding-top: $padd-marg50;
+				.panel-default{
+					border: $border0
+				}
+				.panel-body{
+					height    : 150px;
+					border    : $border0;
+					background: #00cccc
+				}
+				.panel-footer{
+					border    : $border0;
+					background: $colors-wht;
+				}
+			}
+		}
+		.col-md-offset-2{
+			text-align   : $text-tengah;
+			padding-bottom: 20px;
+			p{
+				color: $color-blck
+			}
+		}
+		#button-icon{
+			text-align : center;
+			.btn{
+				background: #00cccc;
+				border    : 1px solid #00cccc
+			}
+		}
+	}
+		#section-method{
+		background: $background-grey;
+		margin-top: $padd-marg50;
+		  #method{
+				 padding-top: $padd-marg100;
+				 p{
+					 color: #b3b3b3
+				 }
+			}
+			.row{
+				.panel{
+					border    :$border0;
+					background: $background-grey
+				}
+				.panel-heading{
+					background: $background-grey;
+					color     : $colors-wht;
+					border    : $border0;
+					padding   : $padd0;
+					h1{
+						font-size: 30px;
+					}
+				}
+				.panel-body{
+					background : $background-grey;
+					color      : $colors-wht;
+					border     : $border0;
+					padding    : $padd0;
+					padding-top: $padd-marg10;
+				}
+			}
+			#button-method{
+				padding-bottom: $padd-marg50;
+				.btn{
+					background: $background-grey;
+					color     : $colors-wht;
+					padding   : $padd0;
+					border    : $border0
+				}
+			}
+		}
+}
+footer{
+	#footer-logo{
+		border-bottom: 1px solid white;
+		background   : $color-blck ;
+		.navbar{
+			padding-right: $padd-marg100;
+			background   : $color-blck ;
+			border       : $border0;
+			#brand{
+				margin-top: $padd-marg50;
+				h1{
+					color: $colors-wht;
+					font-size: 28px;
+				}
+			}
+			@include sm{
+				padding-right: 0px;
+				#brand{
+				  margin-top: 10px;
+					h1{
+						font-size: 20px
+					}
+			  }
+			}
+		}
+		.footer-text{
+			.navbar{
+				padding-bottom: $padd0;
+				margin-bottom : $marg0;
+				margin-top    : $marg0;
+				a{
+					color          : $colors-wht;
+					font-size      : 16px;
+					padding        : $padd0;
+					text-decoration: none
+				}
+			}
+			.form-control{
+				background-color         : $color-blck;
+				border-top-left-radius   : $padd-marg50;
+				border-bottom-left-radius: $padd-marg50;					
+				border                   : 1px solid aqua;
+			}
+			.input-group-btn{
+				.btn{
+					background-color: aqua;
+					border          : 1px solid aqua
+				}
+			}
+		}
+	}
+	#footer-copyright{
+		background-color: $color-blck;
+		.navbar{
+			padding-bottom: $padd0;
+			margin-bottom : $marg0;
+			margin-top    : $marg0;
+			background-color: $color-blck;
+			border          : $border0;
+			p{
+				color: $colors-wht;
+				font-size: 17px;
+			}
+		}
+	}
+}

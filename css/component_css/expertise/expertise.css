@@ -1,0 +1,40 @@
+header .navbar {
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid #f8f7f7;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+header .navbar .navbar-brand {
+  font-size: 30px;
+  color: black;
+}
+
+header .navbar .navbar-brand:hover {
+  color: black;
+}
+
+header .navbar-inverse .navbar-nav {
+  margin-top: 10px;
+}
+
+header .navbar-inverse .navbar-nav li a {
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+header .navbar-inverse .navbar-nav li a:focus {
+  color: black;
+}
+
+header .navbar-inverse .navbar-nav li a:hover {
+  color: black;
+}
+/*# sourceMappingURL=expertise.css.map */

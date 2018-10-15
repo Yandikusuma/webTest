@@ -1,0 +1,40 @@
+header{
+  .navbar{
+  	border-radius : $border0;
+		margin-top    : $marg0;
+		margin-bottom : $marg0;
+  	background    : $background-wht ;
+  	padding-top   : $padd0;
+  	padding-bottom: $padd0;
+  	border-bottom : 2px solid rgb(248, 247, 247);
+  	border-top    : $border0;
+  	border-left   : $border0;
+  	border-right  : $border0;
+  	
+  	.navbar-brand{
+  		font-size: 30px;
+  		color    : $color-blck ;
+  		&:hover{
+  			color  : $color-blck 
+  		}
+  	}
+	}
+	.navbar-inverse{
+		.navbar-nav{
+			margin-top: $padd-marg10;
+			li{
+				a{
+					color         : $color-blck;
+					padding-top   : 4px;
+					padding-bottom: $padd-marg10;
+					&:focus{
+						color:$color-blck
+					}
+					&:hover{
+						color:$color-blck 
+					}
+				}
+			}
+		}
+  }
+}
